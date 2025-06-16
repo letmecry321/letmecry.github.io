@@ -1,0 +1,16 @@
+.blue {
+  background-color:#2F83DE;
+  margin-left:auto;
+  margin-right:auto;
+  padding:15px 15px 15px 15px;
+  border:5px solid #1B58A8
+}
+
+.dark {
+  background-color:#FFFFFF;
+  margin-left:auto;
+  margin-right:auto;
+  padding:10px 10px 10px 10px;
+  border:5px solid #000000;
+  color:#000000
+}
