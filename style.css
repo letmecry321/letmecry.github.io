@@ -15,3 +15,15 @@
   border:5px solid #000000;
   color:#000000
 }
+
+a {
+	color: #B71C1C;
+}
+
+a:visited {
+	color: #F44336;
+}
+
+a:hover {
+	color: #263238;
+}
