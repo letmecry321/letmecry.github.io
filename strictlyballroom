@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="H+J" />
+		<meta name="description" content="strictlyballroom" />
+		<title>letmecry : strictlyballroom</title>
+		<style> body {background-image: url(Textures/dgrey034.jpg);}</style>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	  <h1 style="color:white; text-align:center">Strictly Ballroom</h1>
+	  <p class="dark" style="width:35%"></p>
+	  <p class="dark" style="width:35%"></p>
+	  <p class="dark" style="width:35%"></p>
+	</body>
+</html>
