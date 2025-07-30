@@ -1,0 +1,54 @@
+
+* {
+	 margin: 0;
+     padding: 0;
+}
+
+main {
+	padding: 1vh;
+}
+
+.container{
+	min-height: 90vh;
+	max-height: 98vh;
+	max-width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: 3fr 4fr 3fr;
+	grid-template-rows: 1fr 2fr 4fr;
+	grid-template-areas: 
+	"nw st ft"
+	"nw lg ft"
+	"nw nv ft";
+	gap: 1.5em;
+}
+
+.dark {
+  background-color:#FFFFFF;
+  border:5px solid #000000;
+  color:#000000;
+}
+
+.indark {
+  background-color: #FFFFF;
+  border-bottom: 2.5px solid #000000;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+}
+
+.center {
+	display: grid;
+	place-content: center;
+}
+
+a {
+	color: #B71C1C;
+}
+
+a:visited, a:focus {
+	color: #F44336;
+}
+
+a:hover {
+	color: #263238;
+} 
