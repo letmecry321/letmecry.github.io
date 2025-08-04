@@ -11,17 +11,35 @@ main {
 .container{
 	min-height: 90vh;
 	max-height: 98vh;
-	max-width: 1300px;
+	width: 1000px;
+	max-width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	display: grid;
-	grid-template-columns: 3fr 4fr 3fr;
-	grid-template-rows: 1fr 2fr 4fr;
+	grid-template-columns: 1fr 4fr 4fr;
+	grid-template-rows: 1fr 3fr 3fr 1fr;
 	grid-template-areas: 
-	"nw st ft"
-	"nw lg ft"
-	"nw nv ft";
+	"nv tp tp"
+	"nv if if"
+	"nv if if"
+	"bt bt bt";
 	gap: 1.5em;
+}
+
+.tp {
+	grid-area:tp;
+}
+
+.nv {
+	grid-area:nv;
+}
+
+.if {
+	grid-area:if;
+}
+
+.bt {
+	grid-area:bt;
 }
 
 .dark {
@@ -39,6 +57,15 @@ main {
 .center {
 	display: grid;
 	place-content: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	margin-bottom: 0.25em;
+	margin-bottom: 0.25em;
 }
 
 a {
