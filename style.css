@@ -82,6 +82,15 @@ main {
 	grid-area:ft;
 }	
 
+.review {
+	max-width: 700px;
+	min-width: 25em;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
 .blue {
   background-color: #2F83DE;
   margin-left: auto;
