@@ -42,6 +42,26 @@ main {
 	gap: 1.5em;
 }
 
+.micontainer{
+	height: 1000px;
+	max-height: 98vh;
+	width: 1000px;
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 2fr 5fr 1fr;
+	grid-template-areas: 
+	"tp tp"
+	"ft ft"
+	"tr nw"
+	"nv nv"
+	"bt bt";
+	gap: 1.5em;
+}
+
 .tp {
 	grid-area:tp;
 }
@@ -63,6 +83,10 @@ main {
 	grid-area:nw;
 }
 
+.tr {
+	grid-area:tr;
+}
+
 .st {
 	grid-area:st;
 	display: grid;
@@ -73,10 +97,6 @@ main {
 	grid-area:lg;
 	display: grid;
 	place-content: center;
-}
-
-.nv {
-	grid-area:nv;
 }
 
 .ft {
