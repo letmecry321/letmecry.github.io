@@ -89,14 +89,10 @@ main {
 
 .st {
 	grid-area:st;
-	display: grid;
-	place-content: center;
 }
 
 .lg {
 	grid-area:lg;
-	display: grid;
-	place-content: center;
 }
 
 .ft {
@@ -117,6 +113,17 @@ main {
 	margin-bottom: 2em;
 	padding: .5em;
 }
+
+.todo {
+	max-width: 40vw;
+	min-width: 25em;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding: .5em;
+}
+
 
 .blue {
   background-color: #2F83DE;
@@ -148,13 +155,13 @@ main {
 	justify-content: center;
 }
 
-ul {
-	list-style-type: none;
+p, li {
+	 white-space: pre;
 }
 
-li {
-	margin-bottom: 0.25em;
-	margin-bottom: 0.25em;
+ul {
+	list-style-type: ">";
+	list-style-position: inside;
 }
 
 a {
