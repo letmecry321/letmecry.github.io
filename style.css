@@ -159,7 +159,7 @@ main {
 }
 
 p, li {
-	 white-space: pre;
+	 white-space: pre-wrap;
 }
 
 ul {
