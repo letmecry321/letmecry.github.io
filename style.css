@@ -61,6 +61,19 @@ main {
 	gap: 0.5em;
 }
 
+.biocontainer{
+	height: 25vh;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: 2fr 5fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: 
+	"ft if if"
+	gap: 1.5em;
+}
+
 .tp {
 	grid-area:tp;
 }
