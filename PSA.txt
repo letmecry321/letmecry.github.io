@@ -1,0 +1,2 @@
+//hi if youre working on a page and realize a link is broken fix it please!!! if it's nested within /musicreviews/ or something make sure it links back to https://letmecry.com/ 
+//thanks -h
