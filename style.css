@@ -190,6 +190,10 @@ main {
 	justify-content: center;
 }
 
+.column {
+	column-count: 4;
+	column-gap: 3em;
+}
 p, li {
 	 white-space: pre-wrap;
 }
