@@ -193,6 +193,7 @@ main {
 .column {
 	column-count: 4;
 	column-gap: 3em;
+	column-fill: auto;
 }
 p, li {
 	 white-space: pre-wrap;
