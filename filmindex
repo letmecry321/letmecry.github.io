@@ -1,1 +1,67 @@
-
+x.<!DOCTYPE html>
+ <html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Clancy Gore" />
+		<meta name="description" content="fill" />
+		<title>letmecry : music index</title>
+		<style> body {background-image: url("Textures/ss230.gif");}</style>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	   <main class="micontainer">
+		<div class="tp dark center">
+		<h1>music index</h1>
+		</div>
+		<div class="ft dark center">
+		 <h2>FEATURED: <a href="musicreviews/bastard.html">Bastard</a> - Tyler the Creator</h2>
+		</div>
+		<div class="tr dark middle">
+		 <h3>TOP RATED</h3>
+		
+		 <ol>
+		  <li>9/10 <a href="musicreviews/10songs.html">10 Songs</a> - i hate myself</li>
+		  <li>8.5/10 <a href="musicreviews/whateverandeveramen.html">Whatever and Ever Amen</a> - Ben Folds</li>
+		  <li>tie</li>
+		</div>
+		<div class="nw dark middle">
+		 <h3>NEW REVIEWS</h3>
+		 <ul>
+		  <li><a href="musicreviews/bastard.html">Bastard</a> - Tyler, The Creator</li>
+		  <li><a href="musicreviews/Blue.html">Blue</a> - Joni Mitchell</li>
+		 </ul>
+		</div>
+		<div class="nv dark column">
+		<h3>misc. folk</h3>
+	  <ul>
+		  <li><a href="jonimitchell.html">joni mithcell</a> - m</li>
+	  </ul>
+		<h3>misc. screamo</h3>
+	  <ul>
+	   <li><a href="heroin.html">heroin</a> - wip j</li>
+	   <li><a href="maximilliancolby.html">maximillian colby</a> - j</li>
+	   <li><a href="ihatemyself.html">i hate myself</a> - j</li>
+	   <li><a href="strictlyballroom.html">strictly ballroom</a> - h</li>
+	  </ul>
+	  <h3>misc. rock</h3>
+	  <ul>
+	  <li><a href="benfolds.html">ben folds</a> - h</li>
+	  <li><a href="salteens.html">the salteens</a> - h</li>
+	  <li><a href="quasi.html">quasi</a> - h</li>
+	  </ul>
+	  <h3>misc. rap</h3>
+	  <ul>
+	  <li><a href="tylerTC.html">tyler, the creator</a> - e</li>
+	  </ul>
+	<h3>joke songs/reviews</h3>
+		<ul>
+		<li><a href="sickanimation.html">sick animation</a> - h</li>
+		<li><a href="LD.html">lemon demon</a> - h</li>
+		</ul>
+		</div>
+		<div class="bt dark center">
+		 <h1><a href="index.html">letmecry</h1>
+		</div>
+	   </main>	
+	</body>
+ </html>
