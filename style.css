@@ -50,14 +50,16 @@ main {
 	margin-right: auto;
 	margin-right: auto;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 2fr 5fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 2fr 2fr 1fr 2fr 2fr 1fr;
 	grid-template-areas: 
-	"tp tp"
-	"ft ft"
-	"tr nw"
-	"nv nv"
-	"bt bt";
+	"tp tp tp tp tp"
+	"nv ft ft nw nw"
+	"nv ft ft nw nw"
+	"nv tr con2 con3 con4"
+	"nv con1 con2 con3 con4"
+	"nv con1 con2 con3 con4"
+	"bt bt bt bt bt";
 	gap: 0.5em;
 }
 
@@ -72,6 +74,22 @@ main {
 	grid-template-areas: 
 	"ft if if"
 	gap: 1.5em;
+}
+
+.con1 {
+	grid-area:con1;
+}
+
+.con2 {
+	grid-area:con2;
+}
+
+.con3 {
+	grid-area:con3;
+}
+
+.con4 {
+	grid-area:con4;
 }
 
 .tp {
