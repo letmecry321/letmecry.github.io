@@ -23,6 +23,25 @@ main {
 	gap: 1.5em;
 }
 
+.fakecontainer{
+	max-height: 95vh;
+	height: 1200px;
+	max-width: 95vw;
+	width: 1600px;
+	gap: .5em;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 2fr 2em 3em 2em 5fr;
+	grid-template-areas: 
+	"con1 lg con2"
+	"con3 con3 con3"
+	"nv nv nv"
+	"con4 con4 con4"
+	"if ft bt";
+}
+
 .bandcontainer{
 	height: 1000px;
 	max-height: 98vh;
@@ -213,6 +232,11 @@ main {
 	column-gap: 3em;
 	column-fill: auto;
 }
+
+img {
+	margin: 0em 0.5em;
+}
+
 p, li {
 	 white-space: pre-wrap;
 }
