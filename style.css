@@ -33,12 +33,10 @@ main {
 	margin-right: auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 2fr 2em 3em 2em 5fr;
+	grid-template-rows: 2fr 3em 5fr;
 	grid-template-areas: 
 	"con1 lg con2"
-	"con3 con3 con3"
 	"nv nv nv"
-	"con4 con4 con4"
 	"if ft bt";
 }
 
