@@ -24,18 +24,32 @@
 			</div>	
 		  </div>
 		   <script>
-function myFunction() {
-  document.body.style.backgroundColor = "#f3f3f3";
-  document.body.style.backgroundImage = "url('Textures/ss014.jpg')";
+               function sky1() {
+  document.body.style.backgroundImage = "url('Textures/ss093.jpg')";
+}
+			   function sky22() {
+  document.body.style.backgroundImage = "url('Textures/ss005.jpg')";
+}
+			   function sky3() {
+  document.body.style.backgroundImage = "url('Textures/ss116.jpg')";
+}
+			   function sky4() {
+  document.body.style.backgroundImage = "url('Textures/ss002.PNG')";
 }
 const hour = new Date().getHours(); 
 let time;
-if (hour < 18) {
-myFunction();
+               if (6 < hour < 8) {
+sky1();
 } 
-else {
-	
-}
+			   if (8 < hour < 18) {
+sky2();
+} 
+			   if (18 < hour < 19) {
+sky3();
+} 
+			   if (19 < hour < 5) {
+sky4();
+} 
 </script>
 		  <div class="st center dark">
 		    <h2>welcome to letmecry</h2>
