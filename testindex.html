@@ -25,11 +25,14 @@
 			</div>	
 		  </div>
 		   <script>
+function changeBackground1(){
+	document.body.style.backgroundImage = "url('Textures/ss030.gif')";
+}
+
 const hour = new Date().getHours(); 
-let greeting;
 
 if (hour < 18) {
-  document.body.style.backgroundImage = "url('Textures/ss030.gif')";
+  changeBackground1();
 } else {
 	
 }
