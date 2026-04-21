@@ -10,7 +10,7 @@
 		<link rel="icon" href="Images/regular.ico" type="image/x-icon">
 	</head>
 <!-- <p> welcome to the code of letmecry </p> -->
-	<body>
+	<body onload="startTime()" onload="startTime()">
 	   <main class="container">
 		  <div class="nw dark" style:"background-image: url('letmecry.com/Textures/bubbles.gif');">
 			<h1 class="indark center">info</h1>
@@ -24,6 +24,17 @@
 			<p>Happy one year anniversary of LMC! We have been slightly neglecting the website, but more stuff is being worked on. 1/29/26</p>
 			</div>	
 		  </div>
+		   <script>
+const hour = new Date().getHours(); 
+let greeting;
+
+if (hour < 18) {
+  document.body.style.backgroundImage = "url('Textures/ss030.gif')";
+} else {
+	
+}
+}
+</script>
 		  <div class="st center dark">
 		    <h2>welcome to letmecry</h2>
 		  </div>
