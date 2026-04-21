@@ -36,20 +36,26 @@
 			   function sky4() {
   document.body.style.backgroundImage = "url('Textures/ss002.PNG')";
 }
+			      function sky5() {
+  document.body.style.backgroundImage = "url('Textures/music047.jpg')";
+}
 const hour = new Date().getHours(); 
 let time;
                if (6 < hour < 8) {
 sky1();
 } 
-			   if (8 < hour < 18) {
+			 else if (8 < hour < 18) {
 sky2();
 } 
-			   if (18 < hour < 19) {
+			 else if (18 < hour < 19) {
 sky3();
 } 
-			   if (19 < hour < 5) {
+			  else if (19 < hour < 5) {
 sky4();
 } 
+			   else {
+sky5();				   
+			   }
 </script>
 		  <div class="st center dark">
 		    <h2>welcome to letmecry</h2>
