@@ -11,6 +11,40 @@
 	</head>
 <!-- <p> welcome to the code of letmecry </p> -->
 	<body>
+		 <script>
+               function sky1() {
+  document.body.style.backgroundImage = "url('Textures/ss093.jpg')";
+}
+			   function sky2() {
+  document.body.style.backgroundImage = "url('Textures/ss005.jpg')";
+}
+			   function sky3() {
+  document.body.style.backgroundImage = "url('Textures/ss116.jpg')";
+}
+			   function sky4() {
+  document.body.style.backgroundImage = "url('Textures/ss002.PNG')";
+}
+			   function sky5() {
+  document.body.style.backgroundImage = "url('Textures/music047.jpg')";
+}
+const hour = new Date().getHours(); 
+let time;
+               if (hour < 5) {
+sky4();
+} 
+			   else if (hour < 8) {
+sky1();
+} 
+			   else if (hour < 18) {
+sky2();
+} 
+			   else if (hour < 20) {
+sky3();
+}
+               else{
+sky4();
+}
+		 </script>
 	   <main class="container">
 		  <div class="nw dark" style:"background-image: url('letmecry.com/Textures/bubbles.gif');">
 			<h1 class="indark center">info</h1>
