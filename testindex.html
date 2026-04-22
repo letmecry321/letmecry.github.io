@@ -41,21 +41,21 @@
 }
 const hour = new Date().getHours(); 
 let time;
-               if (6 < hour < 8) {
-sky1();
-} 
-			 else if (8 < hour < 18) {
-sky2();
-} 
-			 else if (18 < hour < 19) {
-sky3();
-} 
-			  else if (19 < hour < 5) {
+               if (hour < 5) {
 sky4();
 } 
-			   else {
-sky5();				   
-			   }
+			   else if (hour < 8) {
+sky1();
+} 
+			   else if (hour < 18) {
+sky2();
+} 
+			   else if (hour < 20) {
+sky3();
+}
+               else{
+sky4();
+}
 </script>
 		  <div class="st center dark">
 		    <h2>welcome to letmecry</h2>
