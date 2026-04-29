@@ -30,12 +30,12 @@ min-height: 90vh;
 	margin-left: auto;
 	margin-right: auto;
 	display: grid;
-	grid-template-columns: 3fr 4fr 3fr;
-	grid-template-rows: 1fr 2fr 4fr;
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows: 1fr 1fr;
 	grid-template-areas: 
-	"nw st ft"
-	"nw lg ft"
-	"nw nv ft";
+	"lg nw"
+	"nv ft";
+	gap: 1.5em;
 	gap: 1.5em;
 }
 
