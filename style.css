@@ -143,6 +143,8 @@ main {
 	position: fixed;
     top: 0;
 	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .navbar {
