@@ -158,7 +158,7 @@ main {
 	justify-content: center;
 }
 
-navbarbutton {
+.navbarbutton {
 	display: block;
 	color: white;
 	padding: 10px 15px;
