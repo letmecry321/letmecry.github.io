@@ -212,8 +212,12 @@ main {
  100% { transform: translateX(-100%); }
 }
 
-.center {
+.nbcenter {
 	display: flex;
+	place-content: center;
+}
+.center {
+	display: grid;
 	place-content: center;
 }
 
