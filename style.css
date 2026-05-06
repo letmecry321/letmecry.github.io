@@ -213,12 +213,12 @@ main {
 }
 
 .center {
-	display: grid;
+	display: flex;
 	place-content: center;
 }
 
 .middle {
-	display: grid;
+	display: flex;
 	justify-content: center;
 }
 
