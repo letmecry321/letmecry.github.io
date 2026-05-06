@@ -135,6 +135,16 @@ main {
 	color: white;
 }
 
+.navbarbox {
+	min-height: 5vh;
+	max-height: 5vh;
+	max-width: 1200px;
+	width: 50vw;
+	background-color:#FFFFFF;
+	border:5px solid #000000;
+	color:#000000;
+}
+
 .navbar {
 	list-style-type: none;
 	margin: 0;
